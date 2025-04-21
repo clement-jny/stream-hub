@@ -1,8 +1,21 @@
 {
+  "homepage": "https://github.com/clement-jny/stream-hub.git#readme",
   "name": "stream-hub",
   "version": "0.1.0",
   "description": "",
   "type": "module",
+  "private": true,
+  "author": {
+    "name": "Clément Jaunay"
+  },
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clement-jny/stream-hub.git"
+  },
+  "engines": {
+    "bun": "1.2.10"
+  },
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
@@ -11,7 +24,6 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
     "tauri": "tauri"
   },
-  "license": "MIT",
   "dependencies": {
     "@tauri-apps/api": "^2",
     "@tauri-apps/plugin-opener": "^2"
