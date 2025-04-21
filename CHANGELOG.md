@@ -9,7 +9,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ### Added
 
+- Add formatter for svelte
 - *(workflows)* Add auto changelog + auto release with git cliff
+
+### Documentation
+
+- Update README and create a P.R.D. file
+
+### Maintenance
+
+- Ignore .vscode and unignore some
 
 ### Other
 
